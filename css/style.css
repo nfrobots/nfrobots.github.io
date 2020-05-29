@@ -1,81 +1,99 @@
 body{
-    background-color: #333333;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    line-height: 1.6em;
-    margin: 12;
-}
-
-.clr{
-    clear: both;
+	background-color: darkgray;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
 }
 
 .container{
-    width: 80%;
-    margin: auto;
-} 
-
-.box-1{
-    background-color: slategray;
-    color: white;
-    border-right: 5px red solid;
-    border-left: 5px red solid;
-    border-top: 5px red solid;
-    border-bottom: 5px red solid;
-
-    padding: 20px;
-
-
-margin-top: 50px;
-}
-.box-2{
-    background-color: slategray;
-    color: white;
-    border-right: 5px blue solid;
-    border-left: 5px blue solid;
-    border-top: 5px blue solid;
-    border-bottom: 5px blue solid;
-
-    padding: 50px;
-
-
-margin-top: 50px;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
 
-.box-1 h1{
-    text-decoration: underline;
-    text-transform: uppercase;
+#main-header{
+	background-color: coral;
+	color: white;
 }
 
-.box-2 h1{
-    text-decoration: underline;
-    text-transform: uppercase;
+#navbar{
+	background-color: grey;
+	color: white;
 }
 
-.block{
-    float: left;
-    width: 30%;
-    border: 1px solid red;
-    margin: 10px;
-    box-sizing: border-box;
+#navbar ul{
+	padding: 0;
+	list-style: none;
 }
 
-#main-block{
-    float: left;
-    width: 55%;
-    background-color: violet;
-    padding: 15px;
-    margin:2em;
-    box-sizing: border-box;
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: nonne;
+	font-size: 18px;
+	padding: 15px;
+}
+
+#showcase h1{
+	color: white;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+	margin-left: 300px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#showcase{
+	background-image:url('C:/Users/nilsm/Desktop/fast alle order/PC-zeug/CodingStuff/Robo/websiteshit/mywebsite/images/showcase.jpg');
+	background-position:center center;
+	min-height: 300px;
+	text-align: center;
 }
 
 #sidebar{
-    float: right;
-    width: 35%;
-    background-color: indianred;
-    color: white;
-    padding: 15px;
-    margin: 2em;
-    box-sizing: border-box;
+	float: right;
+	width: 30%;
+	background: gray;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 67px;
+}
+
+#footer{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 150px;
+	border: 50px;
+}
+
+#main-footer{
+	background: darkgrey;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 500px;
+}
+
+@media(max-widt:600px){
+	#main{
+		float: none;
+	}
+}
+
+@media(max-widt:600px){
+	#sidebar{
+		float: none;
+	}
 }
