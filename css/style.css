@@ -1,4 +1,5 @@
-body{
+body
+{
 	background-color: darkgray;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
@@ -7,89 +8,100 @@ body{
 	margin: 0;
 }
 
-.container{
+.container
+{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
 }
 
-#main-header{
+/*head*/
+#main-header
+{
 	background-color: coral;
 	color: white;
 }
 
-#main-header:hover{
-	background-color: darkgreen;
-}
-
-#main-header h1{
+#main-header h1
+{
 	font-size: 6em;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.oben{
+.oben
+{
 	padding-left: 0em;
 	float: left;
 	margin-top: 22px;
 }
 
+/*logo oben*/
 .bildoben{
 	margin-top: 8px;
 }
 
-.imgNFR{
+.imgNFR
+{
 	width: 200px;
 	height: auto;
 }
 
+/*NavBar*/
 #navbar{
 	background-color: grey;
-	color: white;
+	background: rgba(0, 0, 0, .2);
+	position: sticky;
+	top: 20px;
 }
 
-#navbar:hover{
-	background-color: paleturquoise;
-}
-
-#navbar ul{
-	padding: 0;
-	list-style: none;
-}
-
-#navbar li{
+#navbar li
+{
 	display: inline;
 }
 
-#navbar a{
+#navbar a
+{
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 15px;
+	padding: 20px;
 }
 
-#showcase h1{
+nav ul li a:hover
+{
+	background: rgba(87, 86, 95, 0.664);
+}
+
+/*HauptÜberrschrift*/
+#showcase
+{
+	background-image:url('C:/Users/nilsm/Desktop/fast alle order/PC-zeug/CodingStuff/Robo/websiteshit/mywebsite/images/showcase.jpg');
+	background-position:center center;
+	min-height: 300px;
+	text-align: center;
+}
+
+/*HauptText*/
+	/*Überschrift*/
+#showcase h1
+{
 	color: white;
 	font-size: 30px;
 	line-height: 1.6em;
 	padding-top: 30px;
 }
 
-.button{
-	margin-left: 60em;
-	background-color: red;
-	color: black;
-	box-shadow: 0px 17px 10px -7px black;
-
-	border: solid 3px red;
-	border-end-end-radius: 5px;
+/*
+.emoji
+{
+	margin-top: 3em;
+	margin-bottom: 1em;
 }
+*/
 
-.button:hover{
-	background-color: coral;
-	border: dotted 10px blue;
-}
-
-#main{
+	/*HauptTextMiddle*/
+#main
+{
 	float: left;
 	width: 70%;
 	padding: 0 30px;
@@ -97,14 +109,17 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#showcase{
-	background-image:url('C:/Users/nilsm/Desktop/fast alle order/PC-zeug/CodingStuff/Robo/websiteshit/mywebsite/images/showcase.jpg');
-	background-position:center center;
-	min-height: 300px;
-	text-align: center;
+.mainleftTitel
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: whitesmoke;
 }
 
-#sidebar{
+
+/*sidebar*/
+#sidebar
+{
 	float: right;
 	width: 30%;
 	background: gray;
@@ -114,22 +129,36 @@ body{
 	margin-top: 67px;
 }
 
-#sidebar:hover{
-	background-color: purple;
+#sidebar:hover
+{
+	background-color: rgb(101, 123, 143);
 }
 
-.bildtext{
+/*Robobilder*/
+.robobild
+{
 	text-align: center;
 }
 
-#footer{
+/*Robobilder-Texte/Bezeichnungen*/
+.bildtext
+{
 	text-align: center;
-	font-size: 50px;
-	margin-top: 300px;
-	border: 50px;
+	margin-top: 0;
+	margin-bottom: 20em;
 }
 
-#main-footer{
+/*Sie-Möchten-Uns-Erreichen?*/
+#footer
+{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 150px;
+}
+
+/*Trol-Bottom*/
+#main-footer
+{
 	background: darkgrey;
 	color: white;
 	text-align: center;
@@ -137,14 +166,19 @@ body{
 	margin-top: 500px;
 }
 
-@media(max-width:600px){
-	#main{
+/*Für-HandyNutzer-> bessere Seitenansicht*/
+@media(max-width:600px)
+{
+	#main
+	{
 		float: none;
 	}
 }
 
-@media(max-width:600px){
-	#sidebar{
+@media(max-width:600px)
+{
+	#sidebar
+	{
 		float: none;
 	}
 }

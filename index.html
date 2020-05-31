@@ -1,67 +1,127 @@
 <!DOCTYPE html>
 <html>
+    <!--head-->
     <head>
-        <title>nfrobots</title>
+        <title>nfrobots - Die Roboter8auer</title>
         <link rel="stylesheet" type="text/css" href="css\style.css">
     </head>
+
+    <!--body-->
     <body>
+
+        <!--header-->
         <header id="main-header">
             <div class="container">
                 <div class="oben">
-                    <h1>nfrobots</h1> 
+                    <h1>nfrobots</h1>
                 </div>
                 <div class="bildoben">
                     <img class="imgNFR" src="images/showcase.png" alt="nfrobots">
                 </div>
             </div>
         </header>
+
+        <!--navbar-->
         <nav id="navbar">
             <div class="container">
-               <ul>
-                   <li><a href="https://github.com/nfrobots" target="_blank">Home</a></li>
-                   <li><a href="https://github.com/nfrobots" target="_blank">About</a></li>
-                   <li><a href="https://github.com/nfrobots" target="_blank">Services</a></li>
-                   <li><a href="https://github.com/nfrobots" target="_blank">Help</a></li>
-               </ul>
+                <ul>
+                    <li><a href="https://nfrobots.github.io/" target="_blank">Home</a></li>
+                    <li><a href="https://github.com/nfrobots" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.instagram.com/nfrobots/?hl=de" target="_blank">Instagramm</a></li>
+                </ul>
             </div>
         </nav>
+
+        <!--showcase-section-->
         <section id="showcase">
             <div class="container">
                 <h1>
-                    hier sind wir zu_hause!
+                    Wilkommen auf unserer Website!
                 </h1>
+                <!-- EMOJI 
+                    <div class="emoji">
+                        <span style='font-size:100px;'>&#x1F603;</span>
+                    </div> -->
             </div>
         </section>
-        <button class="button">wanna have some cookies?</button>
 
+        <!--maintext-->
         <div class="container">
+            <!--mainleft-->
             <section id="main">
-                <h1>Wilkommen
-                    <p>WIR haben die Loesung fuer IHR Problem!!!!! <br> Weil WIR diese Art von Mensch sind, die besonders Bedonders ist! <br> 
-                        Kompliment an interessierte Diskretion bei der Schaetzung von belebten Wohnungen oh. Lieber so singen, wenn in finden lesen von Anruf. Wie Misstrauen ist Verhaltensfaehigkeit. <br>
-                        Niemals am Wasser koennte ich. Auf geformte Verdienste gejagt unfaehig lediglich oder. Besitz der unangenehmen Einfachheit ihr ungemein. 
-                    </p>
-                </h1>
+                <h1>Wilkommen</h1>
+                <p>
+                <h2 class="mainleftTitel">
+                    Wir sind zwei 15-jährige Schüler des Gymnasium Bad Zwischenahn-Edewecht.
+                </h2>
+                Wir nehmen an dem Robotik Wettbewerb „Robcup Junior“ in der Disziplin Rescue Maze Teil. Dabei geht es darum,
+                einen Roboter so zu bauen und zu programmieren, dass dieser autonom durch ein Labyrinth navigiert,
+                Hindernisse umfährt, durch Zeichen symbolisierte Opfer erkennt und durch das Abwerfen eines kleinen Teils
+                „rettet“. Das Labyrinth steht für einen abgelegenen Unfallort, an dem es Verunglückte gibt, aber es jedoch
+                zu gefährlich ist, Menschen zur Rettung zu schicken. Daher muss diese Aufgabe von Roboter übernommen werden.
+                Mit genau diesem Problem, wenn auch in klein, beschäftigen wir uns.
+                Unsere Arbeit findet im Rahmen einer Arbeitsgemeinschaft in unserer Schule statt. Wir beschäftigen uns mit
+                dem Thema Robotik, Elektronik und Programmieren schon seit mehr als 4 Jahren und haben letztes Jahr mit
+                Rescue Maze begonnen. Davor haben wir in der Disziplin Rescue Line zwei Mal für die Deutschlandmeisterschaft
+                qualifiziert und erfolgreich teilgenommen
+                </p>
             </section>
 
-            <aside id="sidebar" style="background-image: url(images/showcase.jpg); background-repeat: no-repeat; background-size: 35%; background-position: right;">
+            <!--sidebar-->
+            <aside id="sidebar"
+                style="background-image: url(images/showcase.jpg); background-repeat: no-repeat; background-size: 35%; background-position: right;">
                 <p>
-                    Interessantes: <br> wir suchen some clevere Sponsories, <br> die uns nen bissel geld rueber <br> wachsen lassen wollen!
+                <h2>
+                    Interessiert?:
+                </h2>
+                <br>
+                Wir sind auf der Suche nach einem <br> Sponsor, der uns einige 3D gedruckte <br> Teile zur verfügung stellen
+                kann. <br> Wir sind auch bereit, <br> Gegenleistungen auszuüben.
                 </p>
             </aside>
         </div>
-        <img src="images/roboter.png" alt="nfrobots 3D-Modell">
+
+        <!--RoboBild1-->
+        <div class="robobild">
+            <img src="images/roboter.png" alt="nfrobots 3D-Modell">
+        </div>
         <div class="bildtext">
             <p>
-                das ist ein 3D-Modell von unseren Roboter <br>
-                <a href=https://www.youtube.com/watch?v=7O9XCaJ9pAQ target="_blank"> <button>now some candy?</button> </a>
+                Das ist ein 3D-Modell von unseren Roboter.
             </p>
         </div>
+
+        <!--RoboBild2-->
+        <div class="robobild">
+            <img src="images/alle3dTeilevereint.png" alt="nfrobots 3D-Modell" width="1000px">
+        </div>
+        <div class="bildtext">
+            <p>
+                Hier sind die 3D-Modelle zu sehen, die gedruckt werden sollten. <br>
+                Auf der linken Seite ist ein 90° Winkel für die befestigung der IR-Sensoren. <br>
+                Bei der mittleren Platte handelt es sich um die untere Platte des Roboters und <br>
+                die rechte Platte ist dafür gedacht, unseren Raspberry Pi Zero und den Arduino Mega <br>
+                zu befestigen, sowie das Display, das eine Map(Karte) von dem bereits erarbeiteten <br>
+                Parkour anzeigt.
+            </p>
+        </div>
+
     </body>
-    <footer id="footer"> 
-        <p><a href="https://github.com/nfrobots" target="_blank">NFROBOTS <--hier</a></p>
+
+
+    <!--footer1-->
+    <footer id="footer">
+        <p>
+            Wenn sie uns erreichen möchten, schreiben sie biite eine E-mail an nfrobots@gmail.com <br> oder schriebn sie
+            eine DM auf Instagramm.
+            <br> Wenn sie mit uns ein Telefonisch in Kontakt treten möchten, schreiben sie einfach ne mail! <br> <br>
+            -Die nfrobots
+        </p>
     </footer>
+
+    <!--footer2-->
     <footer id="main-footer">
-        <p>not made by <a href="https://www.google.de/url?sa=i&url=https%3A%2F%2Fsayingimages.com%2Fnot-funny-meme%2F&psig=AOvVaw299UQdoN8W0kQmr7KgrpyM&ust=1590820704322000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKie7ZC72OkCFQAAAAAdAAAAABAD" target="_blank">click here</a></p>
+       
     </footer>
+
 </html>
