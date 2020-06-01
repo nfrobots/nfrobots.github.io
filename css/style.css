@@ -18,14 +18,18 @@ body
 /*head*/
 #main-header
 {
+	width: 100%;
 	background-color: coral;
 	color: white;
+	display: inline-flex;
 }
 
 #main-header h1
 {
+	display: inline-flex;
 	font-size: 6em;
 	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 245px;
 }
 
 .oben
@@ -36,8 +40,9 @@ body
 }
 
 /*logo oben*/
-.bildoben{
-	margin-top: 8px;
+.bildoben
+{
+	margin-top: -300px;
 }
 
 .imgNFR
@@ -46,10 +51,35 @@ body
 	height: auto;
 }
 
+.LogoOben 
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+	/*margin-right: 1050px;*/
+	margin-right: 55%;
+}
+
+.LogoOben .img-hover
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.LogoOben:hover .img-hover
+{
+    display: inline;
+}
+
 /*NavBar*/
-#navbar{
+#navbar
+{
 	background-color: grey;
-	background: rgba(0, 0, 0, .2);
+	background: rgba(0, 0, 0, .3);
 	position: sticky;
 	top: 20px;
 }
